@@ -52,13 +52,11 @@ function App() {
                 { !countryX &&  <option>*--NONE--*</option>}
                 
                 {   
-
                     countryX && stateX[countryX].map( (item) =>(
                                         
                         <option >{item}</option>
                     
                     ))                    
-
                 }
 
 
