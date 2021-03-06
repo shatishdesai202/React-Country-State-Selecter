@@ -6,6 +6,7 @@ import stateX from './DATA/city.json';
 
 import _ from 'underscore';
 
+
 function App() {
 
     console.log(_.size(stateX));
@@ -13,8 +14,6 @@ function App() {
     const [countryX, setCountryX] = useState("");
     // const [P, setP] = useState([]);
 
-    
-        
 
     const selectedCountry = (e) =>{
 
